@@ -69,8 +69,13 @@
 
 ## 🚀 Featured Projects
 
-* **[Quick AI](https://quickai.store)** - A production-grade AI SaaS platform for content generation and image synthesis. Built with React 19, Google Gemini 1.5 Flash, Redis, and PostgreSQL. Architected backend with BullMQ job queues, Clerk auth, and deployed on AWS EC2 via Docker with CI/CD ensuring 99.9% uptime.
+* **[Quick AI](https://quickai.store)** - A production-grade AI SaaS platform for AI content generation and image synthesis, built with React, Express, Google Gemini, Redis, and PostgreSQL.
+* Deployed on **Oracle Cloud ARM64** using **Docker, K3s, and Cloudflare Tunnel**, handling containerized workloads, networking, and secure API exposure.
+* Automated **CI/CD with GitHub Actions, Docker Buildx, and QEMU**, enabling ARM64 image builds and rolling Kubernetes deployments.
+* Built a resilient AI pipeline with **BullMQ + Redis**, SHA-256 prompt caching, and **OpenRouter/Gemini** fallbacks, reducing duplicate LLM requests and token usage by **~60%**.  
+
 * **GlobeTrotter** - A RAG-enhanced AI travel planner designed with Flask, React, and MySQL. Leveraged Google Gemini 2.5 Flash and Retrieval-Augmented Generation (RAG) over a destination database to generate personalized itineraries, alongside a secure REST API and SQLAlchemy ORM integration.
+  
 * **[Club Area](https://clubarea.onrender.com)** - A secure MERN-stack club management system automating recruitment workflows. Implemented Role-Based Access Control (RBAC), JWT/OAuth 2.0 authentication, and optimized the frontend utilizing Zustand, TanStack Query, and Tailwind CSS.
 
 ---
@@ -87,9 +92,6 @@
 ![](https://github-readme-stats.vercel.app/api?username=SOURAVi0001&theme=blue-green&hide_border=false&include_all_commits=false&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=SOURAVi0001&theme=blue-green&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=SOURAVi0001&theme=blue-green&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-### 🏅 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=SOURAVi0001&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight)
