@@ -72,12 +72,13 @@
 * **[Quick AI](https://quickai.store)** - A production-grade AI SaaS platform for AI content generation and image synthesis, built with React, Express, Google Gemini, Redis, and PostgreSQL.
 * Deployed on **Oracle Cloud ARM64** using **Docker, K3s, and Cloudflare Tunnel**, handling containerized workloads, networking, and secure API exposure.
 * Automated **CI/CD with GitHub Actions, Docker Buildx, and QEMU**, enabling ARM64 image builds and rolling Kubernetes deployments.
-* Built a resilient AI pipeline with **BullMQ + Redis**, SHA-256 prompt caching, and **OpenRouter/Gemini** fallbacks, reducing duplicate LLM requests and token usage by **~60%**.  
+* Built a resilient AI pipeline with **BullMQ + Redis**, SHA-256 prompt caching, and **OpenRouter/Gemini** fallbacks, reducing duplicate LLM requests and token usage by **~60%**.
 
-* **GlobeTrotter** - A RAG-enhanced AI travel planner designed with Flask, React, and MySQL. Leveraged Google Gemini 2.5 Flash and Retrieval-Augmented Generation (RAG) over a destination database to generate personalized itineraries, alongside a secure REST API and SQLAlchemy ORM integration.
-  
-* **[Club Area](https://clubarea.onrender.com)** - A secure MERN-stack club management system automating recruitment workflows. Implemented Role-Based Access Control (RBAC), JWT/OAuth 2.0 authentication, and optimized the frontend utilizing Zustand, TanStack Query, and Tailwind CSS.
+* **GlobeTrotter** - A RAG-enhanced AI travel planner built with **Flask, React, and MySQL**, using **Google Gemini 2.5 Flash** and Retrieval-Augmented Generation over a destination database to generate personalized itineraries.
+* Implemented a secure **REST API** with **SQLAlchemy ORM** integration for reliable backend data access and travel recommendation workflows.
 
+* **[Club Area](https://clubarea.onrender.com)** - A secure **MERN-stack club management system** designed to automate recruitment workflows.
+* Implemented **RBAC, JWT/OAuth 2.0 authentication**, and optimized the frontend with **Zustand, TanStack Query, and Tailwind CSS** for efficient state and data management.
 ---
 
 ## 🏆 Achievements & Competitive Programming
