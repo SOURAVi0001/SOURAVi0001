@@ -117,4 +117,55 @@
 - Implemented real-time response streaming using Socket.IO.
 - Designed a 3-tier LLM fallback architecture (Gemini → OpenRouter → Mock) to prevent HTTP 429 failures and improve reliability.
 
-### 2. Fizzi
+### 2. Fizzi AI | RAG-Based Career Assistant
+
+**Tech Stack:** Python, FastAPI, FAISS, BGE-small-en, PostgreSQL, Docker
+
+- Built a dual-source RAG architecture combining FAISS/BGE-small-en vector search with PostgreSQL retrieval across **10+ relational tables**.
+- Achieved **450ms P50 retrieval latency** through optimized asynchronous database connections.
+- Reduced context token consumption by **58%** through conversational query rewriting and optimized retrieval.
+- Implemented an LLM-as-a-Judge validation pipeline with grounding and relevance thresholds (≥0.60).
+- Introduced bounded retries (MAX RETRIES = 2) to improve response reliability.
+- Reduced hallucinations by **84% across a 67-test CI suite**.
+
+---
+
+## 🏆 Achievements & Competitive Programming
+
+- 🏅 **LeetCode Knight** – Peak Rating: 1947 (Top 5% globally).
+- 🧠 Solved **1,000+ DSA problems** across competitive programming platforms.
+- ⭐ **CodeChef Global Rank 222** in Starters 166 Div-3.
+- 💻 Strong foundation in Data Structures, Algorithms, Problem Solving, and System Design.
+
+---
+
+## 📊 GitHub Statistics
+
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=SOURAVi0001&theme=blue-green&hide_border=false&include_all_commits=true&count_private=true" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=SOURAVi0001&theme=blue-green&hide_border=false" />
+</p>
+
+<p align="center">
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SOURAVi0001&theme=blue-green&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
+</p>
+
+---
+
+### ✍️ Random Dev Quote
+
+![](https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight)
+
+### 😂 Random Dev Meme
+
+<img src="https://starecat.com/content/wp-content/uploads/code-compiled-successfully-runtime-error-right-after-that-tom-and-jerry.jpg" width="512px"/>
+
+---
+
+<p align="center">
+  <b>Building scalable systems. Engineering intelligent applications. Solving complex problems. 🚀</b>
+</p>
+
+<p align="center">
+  <img src="https://visitcount.itsvg.in/api?id=SOURAVi0001&icon=0&color=1" />
+</p>
